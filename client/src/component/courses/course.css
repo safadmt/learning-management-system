@@ -1,0 +1,39 @@
+#displaycourses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#filterdiv{
+    min-width: 18rem;
+    max-width: 25rem;
+    border: none black 2px;
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #filterdiv{
+        min-width: 15rem;
+        background-color: rgb(240, 238, 238);
+        z-index: 1;
+        padding: 1rem;
+    }
+    #displaycourses {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        margin: auto;
+    }
+    
+}
+
+
+
+
+
+

@@ -1,0 +1,60 @@
+.pagination {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    
+}
+.pages {
+    border: 2px solid rgb(175, 88, 88);
+    padding: 7px 14px;
+    color: black;
+    margin: 10px 5px 10px 0px;
+}
+.currentpage{
+    border: 2px solid rgb(175, 88, 88);
+    padding: 7px 14px;
+    color: white;
+    margin: 10px 5px 10px 0px;
+    background-color: rgb(235, 15, 15)  ;
+}
+.nextprevious {
+    border: 2px solid rgb(175, 88, 88);
+    padding: 7px 14px;
+    color: black;
+    margin: 10px 5px 10px 0px;
+}
+
+.productpaginationbutton {
+    
+    border: 2px solid rgb(175, 88, 88);
+    padding: 7px 14px;
+    color: black;
+    margin: 10px 5px 10px 0px;
+}
+.productpaginationbutton:hover{
+    padding: 8px 16px;
+    transition: 1ms;
+}
+
+.currentpageproductpagination{
+    border: 2px solid rgb(175, 88, 88);
+    padding: 7px 14px;
+    color: white;
+    margin: 10px 5px 10px 0px;
+    background-color: rgb(235, 15, 15)  ;
+}
+
+.pagination {
+    justify-content: center;
+    display: flex;
+    
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+}
+
+/* #paginationdiv{
+    position: absolute;
+    bottom: 2%;
+    z-index: 1;
+} */

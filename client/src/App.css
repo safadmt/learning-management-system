@@ -1,0 +1,13 @@
+#root {
+    
+    overflow-x: hidden;
+    
+
+}
+.contentdiv{
+    min-height: calc(100vh - 256px);
+}
+
+.App{
+    background-color: #f2f5f5;
+}

@@ -1,0 +1,13 @@
+.course-section{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 3rem;
+}
+
+.aboutInstructor{
+    width: 50%;
+}
+.lessondiv{
+    width: 50%;
+}

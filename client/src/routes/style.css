@@ -1,0 +1,8 @@
+#homeRout{
+    height: auto !important;
+    min-height: 100vh;
+}
+
+.contentdiv{
+    padding-bottom: 3rem;
+}

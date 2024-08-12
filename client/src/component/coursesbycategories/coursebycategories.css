@@ -1,0 +1,21 @@
+#maindiv{
+    width: 100%;
+    
+}
+#coursesdiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+    #maindiv{
+        margin: 0%;
+        padding: 0%;
+    }
+    #coursesdiv{
+        flex-direction: column;
+        align-items: center;
+
+    }
+}

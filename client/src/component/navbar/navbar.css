@@ -1,0 +1,28 @@
+.navbar{
+    color: #235391;
+    
+}
+dropdown-menu{
+    padding: 10px;
+    background-color:white;
+    color: #235391;
+}
+
+@media only screen and (max-width: 1000) {
+    .dropdown-menu{
+        position: absolute;
+        left: 40px;
+        top:300px
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .dropdown-menu{
+        position: absolute;
+        right:40px;
+        top:80px;
+        z-index: 1;
+       
+    }
+}

@@ -1,0 +1,72 @@
+#addcoursemaindiv{
+    display: flex;
+    gap: 2rem;
+}
+
+#icondiv{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+}
+.cousecontent{
+    display: flex;
+    gap: 2rem;
+}
+.ispublishdiv:hover #ispublishcourse{
+    border-radius: 10px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    right: 20%;
+}
+.edittooltipdiv:hover #edittooltip{
+    border-radius: 10px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    right: 20%;
+}
+
+.usertooltipdiv:hover #usericontooltip{
+    border-radius: 10px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    right: 20%;
+
+}
+
+@media only screen and (max-width: 700px) {
+    #lessonform{
+        position: fixed;
+        top: 40%;
+        left:10%;
+        width: 80%;
+    }
+    #lessondisplaydiv{
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        justify-content: center;
+    }
+    .cousecontent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-left: 15px;
+        gap: 2rem;
+    }
+    #icondiv{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2rem;
+    }
+    #addcoursemaindiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+}

@@ -1,0 +1,100 @@
+.card-qandreply{
+    padding: 10px 20px;
+    width: 600px;
+    background-color: white;
+}
+
+.card-qandreply > h6{
+    color: #857f7f;
+    font-weight: bold;
+}
+.read-more-lines{
+    display: block;
+    overflow: visible;
+}
+.show-few-lines{
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.reply-div{
+    padding-left: 4%;
+}
+.read-more{
+    font-size: small;
+    color: #312c2c;
+    text-decoration: underline;
+    text-underline-position: below;
+}
+.question-info-div{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.quill-reply-form{
+    
+    width: fit-content;
+    position: absolute;
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid gray;
+    top: 5rem;
+    z-index: 2;
+}
+.react-quill{
+    width: 550px;
+    
+}
+.replybutton:hover{
+    
+    background-color: rgb(121, 126, 124);
+    
+    border: 1px;
+    
+    border-radius: 10px;
+}
+
+.replybutton{
+    padding: 5px 10px;
+}
+
+.number-of-replies-btn{
+    padding: 3px 10px;
+}
+.number-of-replies-btn:hover{
+    background-color: rgba(6, 87, 236, 0.842);
+    border-radius: 20px;
+    color: white;
+}
+/* .icondiv > span{
+    margin-top: 5px;
+    color: black;
+    font-size: small;
+} */
+
+.qs-ans-main-div{
+    padding: 3% 8%;
+}
+
+.list-replies{
+    padding: 0px 21px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .card-qandreply{
+        width: fit-content;
+    }
+    .qs-ans-main-div{
+        display: grid;
+        place-content: center;
+    }
+    .react-quill{
+        width: fit-content;
+    }
+}

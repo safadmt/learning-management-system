@@ -1,0 +1,15 @@
+#coursebycategorydiv{
+    margin: 0rem 10rem 10rem 10rem;
+    justify-content: center;
+}
+#paginationdiv{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    #coursebycategorydiv{
+        margin: 0rem 0rem 10rem 0rem;
+    }
+}
